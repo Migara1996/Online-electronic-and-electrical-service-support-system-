@@ -1,0 +1,51 @@
+header {
+	padding: 1em;
+	color: white;
+	background-color: #005b96;
+	clear: left;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #E7E7E7;
+	background-color: #F3F3F3 ;
+	position: sticky;
+	top: 0;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: #286DA8;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+	color: white;
+	background-color: #438496;
+}
+nav li a.active {
+	color: white;
+	background-color: #286DA8;
+}
+main section {
+	border: 1px solid #99ccff;
+	padding: 5px;
+}
+main article section {
+	background-color: #b3cde0;
+	overflow: hidden;
+}
+body {
+	
+	background-color: #e6f2ff;
+}
+	
